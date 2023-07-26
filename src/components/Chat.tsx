@@ -48,7 +48,7 @@ export default function Chat() {
 
     // Style Props
     scale: 4,
-    className: 'w-[400px] h-[400px]',
+    className: 'w-full md:w-[400px] h-[400px]',
   });
 
   // Set initial prompt
@@ -75,7 +75,7 @@ export default function Chat() {
         <div>
           Audio Status: <span className='bg-gray-200 rounded-lg px-2'>{audioStatus}</span>
         </div>
-        
+
         {avatarDisplay}
 
         {/* Message Display */}
@@ -97,7 +97,7 @@ export default function Chat() {
           handleSubmit(e);
           handleFirstInteractionAudio();
         }}
-        className="max-w-md fixed bottom-0 flex items-center gap-2 justify-center mb-8 w-full"
+        className="px-2 max-w-md fixed bottom-0 flex items-center gap-2 justify-center mb-8 w-full"
       >
         <input
           placeholder="Say something..."
