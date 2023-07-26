@@ -1,4 +1,4 @@
-This is a Next JS + Vercel AI (LLM) + Avatech SDK (Avatar) + Eleven Labs (Voice)
+This is a Next JS + Vercel AI (LLM) + Avatech SDK (Avatar) + Eleven Labs (Voice) avatar demo.
 
 ## Getting Started
 
@@ -37,3 +37,7 @@ const elevenLabs = new ElevenLabsVoiceService(
   'YOUR_NEW_VOICE_ID',
 );
 ```
+
+## Learn more
+
+Documentation https://docs.avatech.ai
