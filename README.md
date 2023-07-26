@@ -1,4 +1,4 @@
-This is a Next JS + Vercel AI + OpenAI + Avatech SDK +
+This is a Next JS + Vercel AI (LLM) + Avatech SDK (Avatar) + Eleven Labs (Voice)
 
 ## Getting Started
 
@@ -24,4 +24,16 @@ Sign in and generate avatars and edit the avatar id in Chat.tsx
     avatarId: 'YOU_AVATAR_ID',
     ...
 });
+```
+
+## Customizing voice
+
+Currently supporting elevenlabs directly. To change the voice id, head to Chat.tsx
+
+```tsx #2
+const elevenLabs = new ElevenLabsVoiceService(
+  process.env.NEXT_PUBLIC_ELEVEN_LABS_API_KEY!,
+  'eleven_monolingual_v1',
+  'YOUR_NEW_VOICE_ID',
+);
 ```
