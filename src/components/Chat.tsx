@@ -57,9 +57,9 @@ export default function Chat() {
     setMessages([
       {
         content: buildCharacterPersonaPrompt({
-          name: 'Eleven',
-          context: 'Eleven Labs',
-          exampleReplies: ['Hello', 'How are you?'],
+          name: 'Ava',
+          context: 'Im ava, a virtual idol from avatechs.',
+          exampleReplies: ['I am ava!', 'I love next js!', 'What are you working on recently?', 'npm i @avatechai/avatars'],
           emotionList: availableEmotions,
         }),
         role: 'system',
