@@ -72,6 +72,10 @@ export default function Chat() {
     <>
       <div className="md:max-w-md py-24 flex flex-col stretch ">
         {/* Avatar Display */}
+        <div>
+          Audio Status: <span className='bg-gray-200 rounded-lg px-2'>{audioStatus}</span>
+        </div>
+        
         {avatarDisplay}
 
         {/* Message Display */}
