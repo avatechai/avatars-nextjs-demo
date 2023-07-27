@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@avatechai/avatars':
-    specifier: ^0.4.17
-    version: 0.4.17(@pixi/constants@6.5.2)(@pixi/extensions@6.5.2)(@pixi/runner@6.5.2)(@pixi/settings@6.5.2)(next@13.4.12)(react@18.2.0)
+    specifier: 0.4.18
+    version: 0.4.18(@pixi/constants@6.5.2)(@pixi/extensions@6.5.2)(@pixi/runner@6.5.2)(@pixi/settings@6.5.2)(next@13.4.12)(react@18.2.0)
   '@types/node':
     specifier: 20.4.4
     version: 20.4.4
@@ -83,8 +83,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@avatechai/avatars@0.4.17(@pixi/constants@6.5.2)(@pixi/extensions@6.5.2)(@pixi/runner@6.5.2)(@pixi/settings@6.5.2)(next@13.4.12)(react@18.2.0):
-    resolution: {integrity: sha512-BSvDH0YmPZEEw58eeXKOB98UWd1jRFEgCzNFbHlJjufpw7bPaWDlrFq09DLiXU9wq2GeDOiRVCVz6iYWQVx7qg==}
+  /@avatechai/avatars@0.4.18(@pixi/constants@6.5.2)(@pixi/extensions@6.5.2)(@pixi/runner@6.5.2)(@pixi/settings@6.5.2)(next@13.4.12)(react@18.2.0):
+    resolution: {integrity: sha512-GqyQ6M+7NuxYwT2R1LmCiClUz9UH4sm3itTgfJ6hMneI64PHkmSS30+thZO0rYoAqBYLgbdq1SNCbzzlhtZqtw==}
     peerDependencies:
       next: '>=13.0.0'
       react: '>=17.0.2'
