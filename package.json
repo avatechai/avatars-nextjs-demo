@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@avatechai/avatars": "0.4.19",
+    "@avatechai/avatars": "0.4.21-next.12",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "@types/reveal.js": "^4.4.2",
-    "ai": "^2.0.1",
+    "ai": "^2.1.26",
     "autoprefixer": "10.4.14",
     "bezier-easing": "^2.1.0",
     "eslint": "8.45.0",
